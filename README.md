@@ -38,4 +38,4 @@ c++ 写的终端版坦克大战,仅可在windows上编译运行
 	e.add_obj(std::move(enemy));//往场景中加入2号物品.
 	e.run();//运行
 ```
-![showcase](showcase.gif)
+![showcase](https://github.com/hfh1999/tankgame_cpp_refactoring/blob/master/showcase-back.gif)
