@@ -1,0 +1,3 @@
+﻿  testTankGame.cpp
+d:\c++\tankgame\tankgame\dispaly.h(78): warning C4091: “static ”: 没有声明变量时忽略“Terminal::Direct”的左侧
+  TankGame.vcxproj -> D:\c++\TankGame\Debug\TankGame.exe
