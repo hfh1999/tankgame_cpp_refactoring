@@ -32,7 +32,6 @@ public:
 	/* Engine's control*/
 	void add_obj(std::unique_ptr<Object> in_obj);//add game object.
 	void set_fresh_time(SHORT in_time);
-	void deal_event();//event's splitor;
 	void run();// start Engine
 	void render();// render objects
 	virtual void main_loop() {}// main logic loop
@@ -53,6 +52,7 @@ public:
 	void set_display_size(){}
 	
 	/* event system */
+	void deal_event();//event's splitor;
 
 private:
 	void clean_()//delete useless object.

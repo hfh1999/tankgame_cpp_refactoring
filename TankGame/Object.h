@@ -80,6 +80,6 @@ public:
 
 
 	/*event*/
-	void key_event(KeyEvent* ev) {}// key's event
+	virtual void key_event(KeyEvent* ev) {}// key's event
 };
 
